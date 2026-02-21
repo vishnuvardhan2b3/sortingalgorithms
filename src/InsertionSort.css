@@ -1,0 +1,26 @@
+.circle {
+    transition: all 0.4s ease;
+  }
+  
+  .key-container {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    justify-content: center;
+  }
+  
+  .key-circle {
+    transform: scale(0.95);
+  }
+  
+  .explanation {
+    margin-top: 12px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+  .slider {
+    margin-top: 16px;
+  }
+  
