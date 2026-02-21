@@ -9,7 +9,7 @@ export default function App()
     <div>
       <h1>Sorting Algorithms</h1>
       <ul>
-        <Link to="/sel"><li>selection Sort</li></Link>
+        <Link to="/sel"><li>Selection Sort</li></Link>
         <Link to='/bub'><li>Bubble Sort</li></Link>
         <Link to="/ins"><li>Insertion Sort</li></Link>
       </ul>
@@ -17,7 +17,7 @@ export default function App()
         <Route path='/' element={<Home/>}/>
         <Route path='/sel' element={<SelectionSortStepControl/>}></Route>
         <Route path='/bub' element={<BubbleSortStepControl2/>}></Route>
-        <Route path='/ins' element={<InsertionSort/>}></Route>
+        <Route path='/ins' element={<InsertionSort/>}/>
       </Routes>
     </div>
   )
